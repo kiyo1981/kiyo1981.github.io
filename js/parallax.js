@@ -248,8 +248,8 @@
             _this.image.$item = document.createElement('div');
             imageStyles = _this.extend({
                 'background-position' : '50% 50%',
-                'background-size'     : '100% auto',
-                'background-repeat'   : 'no-repeat no-repeat',
+                //'background-size'     : '100% auto',
+                //'background-repeat'   : 'no-repeat no-repeat',
                 'background-image'    : 'url("' + _this.image.src + '")'
             }, containerStyles, imageStyles);
         }
